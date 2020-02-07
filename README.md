@@ -19,4 +19,5 @@
 ![image](https://user-images.githubusercontent.com/41297819/74060613-f6fb7300-49af-11ea-8edc-6dc0d026c27b.png)
 
 -Snippet above shows that whenever "/about" it will render "/" or index.js. We could change "/about" --> "*" and that would take care of all urls entered
+
  
