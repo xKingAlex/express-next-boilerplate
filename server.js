@@ -19,7 +19,7 @@ app.prepare()
 		 * This will override the default '/about' next js route and when user goes to '/about'
 		 * it will serve index.js because route '/' which we are rendering in app.render() belongs to index.js
 		 */
-		server.get( '/about', ( req, res ) => {
+		server.get( '*', ( req, res ) => {
 			return app.render( req, res, '/' );
 		} );
 
