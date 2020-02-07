@@ -1,5 +1,11 @@
 # express-next-boilerplate
 
+**How to run it**
+1) Clone and cd into project
+2) npm install
+3) npm run dev --> which runs node server.js
+
+
 **Noteable Changes**
 
 1) No client folder as we are only doing server-side rendering
