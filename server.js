@@ -20,7 +20,7 @@ app.prepare()
 		 * it will serve index.js because route '/' which we are rendering in app.render() belongs to index.js
 		 */
 		server.get( '/about', ( req, res ) => {
-			return app.render( req, res, '/about' );
+			return app.render( req, res, '/' );
 		} );
 
 		/**
